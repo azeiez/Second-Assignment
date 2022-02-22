@@ -1,0 +1,237 @@
+/* fonts */
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+footer {
+  font-family: "Manrope", sans-serif;
+}
+
+/* ---------------
+Start Header
+----------------- */
+/* Style the Influencer products  */
+.influencer-marketing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.max-width {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* background color for navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style for navigation bar */
+.topnav a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  border-style: none;
+}
+
+/* hover color */
+.topnav a:hover {
+  background-color: #cf8ea6;
+  color: black;
+}
+
+/* active/current color */
+.topnav a.active {
+  background-color: #e02c6d;
+  color: white;
+}
+/*----------------
+Header End  
+------------------*/
+
+/* button Style */
+
+.btn {
+  background-color: #e02c6d;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 40px;
+  border: none;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+/* button hover */
+.btn:hover {
+  background-color: #cf8ea6;
+}
+
+/* Start Journey */
+.journey {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.journey_laft {
+  width: 50%;
+  height: 500px;
+}
+.journey_right {
+  width: 50%;
+  height: 500px;
+}
+
+.Start-Journey {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.font_Poppins {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cam {
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  left: 150px;
+}
+.cam-bg {
+  position: relative;
+  top: -425px;
+  left: 150px;
+}
+
+/* start branding */
+
+.brand-items {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Style for horizontal line */
+.hr {
+  background: radial-gradient(rgb(189, 189, 189), white);
+    height: 2px; 
+}
+/* Start Popular Collection */
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  align-items: center;
+}
+.popular-collection{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-size: 1.25em;
+ }
+ 
+/* products */
+.product{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  margin: 15px;
+}
+.product img{
+  width: 100%;
+}
+/* rating star */
+.rating{
+  display:flex;
+}
+.star i{
+  color: rgb(255, 174, 0);
+}
+.ditails h3{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-style: normal 
+    }
+
+/* see-more */
+.see-more{
+      text-align: right;
+      color: #e02c6d;
+      margin-top: 75px;
+      margin-bottom: 125px;
+    }
+.see-more:hover {
+            color: #c07d96;
+    }
+
+    /* one place style */
+    .one-place {
+           display: flex;
+      justify-content: space-between
+      
+    }
+    .one-place_laft {
+      width: 50%;
+      height: 500px;
+    }
+    .one-place_right {
+    width: 50%;
+    height: 500px;
+    }  
+       
+
+            
+
+    /* button 2 style */
+.btn2 {
+      background-color: #e02c6d;
+      color: white;
+      padding: 15px 40px;
+      border: none;
+      font-family: Poppins;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    /* button 2 hover */
+.btn2:hover {
+      background-color: #cf8ea6;
+    }
+/* footer Style */
+footer {
+  background-color: #010133;
+  display: block;
+  color:white;
+  text-align: center;
+
+}
+
+.footer-icon{
+  font-size: 3em;
+  color: silver;
+  word-spacing: 20px;
+}
